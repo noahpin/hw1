@@ -9,9 +9,19 @@ You can compile this file like this:
 g++ split.cpp test_split.cpp -o test_split
 */
 
+#include <vector>
+#include <limits>
+#include <cstdlib>
+#include <iostream>
+#include <map>
+using namespace std;
+
 #include "split.h"
 
-int main(int argc, char* argv[])
-{
+Node *makeList(std::vector<int> const &content);
 
+void deleteList(Node * list);
+
+int main(int argc, char *argv[])
+{
 }
