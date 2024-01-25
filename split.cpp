@@ -37,7 +37,7 @@ void split(Node *&in, Node *&odds, Node *&evens)
     in = nullptr;
   }
   else
-  {
+  { // even
     Node *newNode = new Node(in->value, nullptr);
     if (evens == nullptr)
     {
