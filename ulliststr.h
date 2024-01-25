@@ -63,7 +63,7 @@ class ULListStr {
    */
   void pop_back();
   
-  /**
+  /**\
    * Adds a new value to the front of the list.
    * If there is room before the 'first' value in
    * the head node add it there, otherwise, 
